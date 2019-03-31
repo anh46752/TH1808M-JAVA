@@ -24,7 +24,7 @@ public class hocsinh {
     }
 
     public void printInfo() {
-        System.out.println("Thong tin cua hoc sinh:");
+        System.out.println("Thong tin cua hoc sinh");
         System.out.println("Ma hoc sinh: " + Mahocsinh + "; Diem trung binh: " + Diemtrungbinh + ";  Tuoi: " + Tuoi + ";Lop: " + Lop);
     }
 
