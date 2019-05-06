@@ -14,8 +14,8 @@ public class Connector {
     private Connector() { //Step2: single design_ set private
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String URL = "jdbc:mysql://localhost:3306/t1808m1";
-            this.conn = DriverManager.getConnection(URL, "huong", "123456");
+            String URL = "jdbc:mysql://localhost:3306/t1808m";
+            this.conn = DriverManager.getConnection(URL, "tuananh", "123456789");
         }
         catch (Exception e){
             e.printStackTrace();
